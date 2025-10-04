@@ -1,4 +1,6 @@
 from person import Person
+from student import Student
+
 
 def main():
     print("Hello World")
@@ -37,6 +39,8 @@ def main():
     print(Person.is_adult(p2))
     print(Person.num_of_people)
 
+    s1 = Student("S1", "Odin", 1 ,False, "UXF1FP")
+    print(s1)
 
 
 if __name__=="__main__":
